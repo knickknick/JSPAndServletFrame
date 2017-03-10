@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id = "user" class = "com.entity.User">
+        <property name = "username">
+            <value>tianxingda</value>
+        </property>
+        <property name = "password">
+            <value>123</value>
+        </property>
+        <property name = "email">
+            <value>471477151@qq.com</value>
+        </property>
+        <property name = "phonenumber">
+            <value>18810349937</value>
+        </property>
+    </bean>
+    <bean id = "test" class = "com.Test.test"></bean>
+</beans>
